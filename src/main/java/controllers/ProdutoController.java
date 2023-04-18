@@ -1,12 +1,14 @@
 package controllers;
 
 import org.springframework.web.bind.annotation.*;
+import produtos.DadosProdutos;
 
 @RestController
-@RequestMapping("/Produtos")
+@RequestMapping("/produtos")
 public class ProdutoController {
     @PostMapping
-    public void cadastrar(@RequestBody String json){
-        System.out.println(json);
+    public void cadastrar(@RequestBody DadosProdutos dados){
+
+        System.out.println(dados);
     }
 }
