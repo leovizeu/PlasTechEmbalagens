@@ -1,4 +1,4 @@
-package funcionarios;
+package Objetos;
 
 public class colaborador {
     public String nome;

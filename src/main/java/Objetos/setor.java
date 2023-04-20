@@ -1,4 +1,4 @@
-package funcionarios;
+package Objetos;
 
 public class setor {
     public String Valvulado;

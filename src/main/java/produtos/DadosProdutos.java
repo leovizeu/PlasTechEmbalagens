@@ -5,7 +5,7 @@ public record DadosProdutos(String nome,
                             int altura,
                             int largura,
                             int lote,
-                            double entrega,
+                            String entrega,
                             int quantidade) {
 
 }
